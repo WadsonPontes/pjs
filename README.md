@@ -19,14 +19,14 @@ Baixe a última versão da API, coloque-o na pasta de seu projeto e chamei-o den
 
 Para criar um Elemento use a função *criar* ou crie um objeto Elemento diretamente. Exemplos:
 ```js
-let nome_do_campo_texto = new Elemento("campo_texto", "nome_do_campo_texto", "classe_do_campo_texto", "pai_do_campo_texto", "texto_reservado");
+let nome_do_campo = new Elemento("campo", "nome_do_campo", "classe_do_campo", "pai_do_campo", "texto_reservado");
 
 criar("imagem", "nome_da_imagem", "", pai_da_imagem);
 criar("imagem", "nome_da_imagem", "classe_da_imagem", pai_da_imagem);
 criar("imagem", "nome_da_imagem", "classe_da_imagem", "nome_do_pai_da_imagem");
 criar("imagem", "nome_da_imagem", "classe_da_imagem", pai_da_imagem, url);
 
-criar("botao", "nome_do_botao", "classe_do_botao", pai_do_botao, texto_do_botao).evento("clique", evento_botao_clicado);
+criar("botao", "nome_do_botao", "classe_do_botao", pai_do_botao, texto_do_botao).evento("clique", funcao_botao_clicado);
 criar("texto", "nome_do_texto", "classe_do_texto", pai_do_texto, texto);
 ```
 
@@ -45,11 +45,12 @@ converter("frase");
 frase.texto = "O texto agora é outro";
 h[nome_do_elemento].nome = "novo_nome";
 novo_nome.x = 100;
+imagem_personagem.posicao(200, 600);
 ```
 
 Para apagar um Elemento use a função *apagar* ou chame o método *apagar* do Elemento. Exemplos:
 ```js
-apagar(nome_do_elemento);
+apagar(elemento);
 elemento.apagar();
 ```
 
