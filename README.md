@@ -1,9 +1,9 @@
 # PJS - JavaScrip em Português
-API de JavaScript focada na criação e gerenciamento dos elementos do DOM com funções em português
+Biblioteca de JavaScript focada na criação e gerenciamento dos elementos do DOM com funções em português
 
 ## Como instalar
 
-Baixe a última versão da API, coloque-o na pasta de seu projeto e chamei-o dentro do \<BODY\>. Exemplo:
+Baixe a última versão da biblioteca, coloque-o na pasta de seu projeto e chamei-o dentro do \<BODY\>. Exemplo:
 ```html
 <html>
   <head>
@@ -13,7 +13,7 @@ Baixe a última versão da API, coloque-o na pasta de seu projeto e chamei-o den
   </body>
 </html>
 ```
-*Atenção*: chamá-lo dentro do \<HEAD\> gerará um erro, pois a API tentará criar o Elemento *corpo* antes do \<BODY\> ser inicializado. E todo código JavaScript deve ser escrito ou chamado após a chamada da API.
+*Atenção*: chamá-lo dentro do \<HEAD\> gerará um erro, pois a biblioteca tentará criar o Elemento *corpo* antes do \<BODY\> ser inicializado. E todo código JavaScript deve ser escrito ou chamado após a chamada da biblioteca.
 
 ## Como usar
 
