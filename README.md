@@ -29,7 +29,7 @@ criar("imagem", "nome_da_imagem", "classe_da_imagem", pai_da_imagem, url);
 criar("botao", "nome_do_botao", "classe_do_botao", pai_do_botao, texto_do_botao).evento("clique", funcao_botao_clicado);
 criar("texto", "nome_do_texto", "classe_do_texto", pai_do_texto, texto);
 ```
-*Atenção*: O <BODY> é automaticamente convertido para Elemento com o nome *corpo*, logo seus primeiros Elementos devem ser filhos do Elemento *corpo*;
+*Atenção*: O \<BODY\> é automaticamente convertido para Elemento com o nome *corpo*, logo seus primeiros Elementos devem ser filhos do Elemento *corpo*;
 
 Para converter um elemento do DOM em Elemento use a função *converter*. Exemplos:
 ```js
