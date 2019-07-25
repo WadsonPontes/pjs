@@ -21,7 +21,9 @@ Para criar um Elemento use a função *criar* ou crie um objeto Elemento diretam
 ```js
 let nome_do_campo = new Elemento("campo", "nome_do_campo", "classe_do_campo", "pai_do_campo", "texto_reservado");
 
-criar("div", "nome_da_div", "", corpo);
+criar("div", "nome_da_div");
+criar("div", "nome_da_div", "classe_da_imagem");
+criar("div", "nome_da_div", "classe_da_imagem", corpo);
 criar("imagem", "nome_da_imagem", "classe_da_imagem", nome_da_div);
 criar("imagem", "nome_da_imagem", "classe_da_imagem", "nome_do_pai_da_imagem");
 criar("imagem", "nome_da_imagem", "classe_da_imagem", pai_da_imagem, url);
